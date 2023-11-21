@@ -12,7 +12,6 @@ body {
 }
 
 header{
-
     background-color: gray;
     box-shadow: 0px 3px 10px #a9a9a9; /* separador do header para o body */
 }
@@ -118,4 +117,36 @@ header{
 
 .content button:hover{
     background-color: red;
+}
+
+
+/* PAGE CONTENT 1 */
+
+
+#headerContent1{
+    background-color: red;
+    box-shadow: 0px 10px 10px #FF0000	; /* separador do header para o body */
+}
+
+.nav-barContent1{
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteudo1 {
+    font-size: 15px;
+    font-family: Arial;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+#textoConteudo1{
+    font-weight: 500;
+    font-family: cursive;
+    padding: 5rem;
+    text-align: center;
+
 }
