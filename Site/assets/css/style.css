@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header{
+    background-color: #a9a9a9;
+    box-shadow: 0px 3px 10px #a9a9a9;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem 5rem;
+
+}
+
+.logo{
+    font-family: "Inter", sans-serif;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    size: 1.2rem;
+}
+
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+    font-weight: 400;
+}
+
+.login-button button{
+    margin-top: 3.3rem;
+    border: none;
+    background-color: aqua;
+    padding: 10px 15px;
+    border-radius: 6px;
+
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.conteiner  {
+    /* Ajuste conforme necessário */
+     /* Define um valor máximo para a largura da div */
+    background-color: gray; /* Cor de fundo da div usando RGB */
+    padding: 50px; /* Adiciona algum espaço interno para o conteúdo */
+    box-sizing: border-box; /* Garante que o padding seja incluído na largura total */
+    color: #fff; /* Cor do texto dentro da div, ajuste conforme necessário */
+}
+
+.p1{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.conteudos{
+    height: 500px;
+    
+}
+
