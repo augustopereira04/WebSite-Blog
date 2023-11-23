@@ -15,12 +15,14 @@ header{
     
     background:linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
     box-shadow: 0px 3px 10px #a9a9a9; /* separador do header para o body */
+    
 }
 
 .nav-bar{
     display: flex;
     justify-content: center;
     padding: 0.2rem 5rem;
+    
 
 }
 
@@ -31,7 +33,9 @@ header{
     display: flex;
     align-items: center;
     size: 1.2rem;
+    
 }
+
 
 
 .nav-list{
@@ -39,12 +43,14 @@ header{
     align-items: center;
     margin-right: 10%;
     margin-left: 2%;
+    
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
+    
 }
 
 .nav-item {
@@ -52,15 +58,21 @@ header{
 }
 
 .nav-link{
+    
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     color: black; /* cor das letras */
     font-weight: 400;
+    
 }
 
 .nav-link:hover{
     color: #4169E1;
 }
+
+
 
 .conteiner  {
     /* Ajuste conforme necessário */
@@ -82,7 +94,9 @@ header{
     color: black;
     text-align: center;
     font-size: 40px;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 900;
 }   
 
@@ -167,18 +181,28 @@ header{
 
 #headerContent1{
     background: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
-    box-shadow: white
+    box-shadow: white;
+}
+
+#nav-link{
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black; /* cor das letras */
+    font-weight: 400;
 }
 
 .nav-barContent1{
     display: flex;
     justify-content: center;
+    
 
 }
 
 .conteudo1 {
-    font-size: 17px;
-    font-family:700;
+    font-size: 15px;
+    font-family: bold;
     padding: 50px;
     text-align: center;
     color: white;
@@ -204,8 +228,12 @@ header{
 
 #textoConteudo1{
     margin-top: 1;
-    font-weight: 500;
-    font-family: cursive;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 5rem;
     text-align: center;
 
