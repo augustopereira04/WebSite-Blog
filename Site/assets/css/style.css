@@ -12,7 +12,8 @@ body {
 }
 
 header{
-    background-color: #F8F8F4;
+    
+    background:linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
     box-shadow: 0px 3px 10px #a9a9a9; /* separador do header para o body */
 }
 
@@ -101,6 +102,7 @@ header{
 }
 
 #imagemPost{
+
     width: 40%;
     margin-top: 1rem;
     text-align: center;
@@ -109,8 +111,39 @@ header{
 
 }
 
-
 .content button{
+    appearance: button;
+    background-color: white;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: white 4px 4px 0 0,white 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 5px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-top: 1.2rem;
+}
+
+
+.content p {
+    font-weight: 700;
+}
+/*.content button{
     margin-top: 1rem;
     padding: 5px;
     width: 50%;
@@ -123,9 +156,9 @@ header{
     background-color: #4169E1;
     cursor:pointer;
 }
-
+*/
 .content button:hover{
-    background-color: red;
+    background: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
 }
 
 
@@ -133,8 +166,8 @@ header{
 
 
 #headerContent1{
-    background-color: red;
-    box-shadow: 0px 10px 10px #FF0000	; /* separador do header para o body */
+    background: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+    box-shadow: white
 }
 
 .nav-barContent1{
@@ -144,26 +177,18 @@ header{
 }
 
 .conteudo1 {
-    font-size: 15px;
-    font-family: Arial;
+    font-size: 17px;
+    font-family:700;
     padding: 50px;
     text-align: center;
     color: white;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 #conteudopage1{
-    
     font-size: 2rem;
-    /* Primeiro passo: definir um degradê como fundo */
-    background-image: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
-    /* Segundo passo: apagar do fundo tudo que não estiver imediatamente atrás de texto */
-    background-clip: text;
-    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
-    /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
-    -webkit-text-fill-color: transparent;
-    /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
-    
+    font-weight: 600;
+    font-family: sans-serif;
 }
 
 #imageContent1{
